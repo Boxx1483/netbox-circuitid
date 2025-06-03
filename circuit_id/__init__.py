@@ -1,1 +1,0 @@
-from .netbox_plugin import config
