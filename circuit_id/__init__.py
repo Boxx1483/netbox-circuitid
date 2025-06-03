@@ -7,6 +7,7 @@ class CircuitIDConfig(PluginConfig):
     description = 'Manage Circuit IDs for cables'
     version = '0.1'
     base_url = 'circuit-id'
+    urlpatterns = 'circuit_id.urls'
     required_settings = []
     default_settings = {}
 
