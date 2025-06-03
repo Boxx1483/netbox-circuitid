@@ -1,1 +1,1 @@
-from .netbox_plugin import config
+from ..netbox_plugin import config
