@@ -3,9 +3,10 @@ from extras.plugins import PluginConfig
 class CircuitIDConfig(PluginConfig):
     name = 'circuit_id'
     verbose_name = 'Circuit ID'
-    description = 'Plugin to associate circuit IDs with cables'
+    description = 'Manage Circuit IDs for cables'
     version = '0.1'
     base_url = 'circuit-id'
-    min_version = '3.5.0'
+    required_settings = []
+    default_settings = {}
 
 config = CircuitIDConfig
