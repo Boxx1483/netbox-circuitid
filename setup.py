@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='circuit_id',
+    name='netbox-circuit-id',
     version='0.1',
     description='NetBox plugin to manage circuit IDs for cables',
     install_requires=[],

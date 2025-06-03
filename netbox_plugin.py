@@ -1,7 +1,3 @@
-# netbox_plugin.py
-
-# Entry point for the NetBox plugin
-
 from extras.plugins import PluginConfig
 
 class CircuitIDConfig(PluginConfig):
